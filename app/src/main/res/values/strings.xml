@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GithubTask</string>
+    <string name="search">Search</string>
+    <string name="tv_name">Name: %s</string>
+    <string name="tv_description">Description: %s</string>
+    <string name="tv_watchers_count">Watchers count %d</string>
+</resources>

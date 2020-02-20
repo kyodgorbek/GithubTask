@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1f2225</color>
+    <color name="colorPrimaryDark">#1f2225</color>
+    <color name="colorAccent">#E99E27</color>
+
+    <color name="WindowBackground">@color/colorShark</color>
+    <color name="colorShark">#313437</color>
+    <color name="colorGrayOslo">#858A91</color>
+    <color name="colorGrayOslo_O30">#4D858A91</color>
+    <color name="colorWildWatermelon">#FF7078</color>
+    <color name="colorFireBush">#E99E27</color>
+    <color name="colorFireBush_O50">#80E99E27</color>
+    <color name="colorWhite_O50">#80FFFFFF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBlack_O70">#B3000000</color>
+    <color name="colorBlack_O30">#4D000000</color>
+    <color name="colorAthensGray">#F3F5F8</color>
+    <color name="colorAbbey">#4A4F55</color>
+    <color name="colorSilver">#C4C4C4</color>
+</resources>
+
