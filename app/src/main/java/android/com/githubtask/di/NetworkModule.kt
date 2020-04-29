@@ -18,7 +18,7 @@ class NetworkModule {
 
         private const val BASE_URL = "https://api.github.com/"
         private const val TOKEN = "token"
-        private const val AUTH_TOKEN = "fc7adb04dfff85115f02701fb3fb9129e1051e8b"
+        private const val AUTH_TOKEN = "1c5b1ab9a6aff0ccd1ecd50a19ac83cd600a0ddf"
 
         private const val READ_TIMEOUT = 100L
         private const val CONNECT_TIMEOUT = 120L
@@ -56,7 +56,11 @@ class NetworkModule {
                 Retrofit.Builder()
                     .baseUrl(BASE_URL)
                     .client(get())
-                    .addConverterFactory(GsonConverterFactory.create(GsonBuilder().serializeNulls().create()))
+                    .addConverterFactory(
+                        GsonConverterFactory.create(
+                            GsonBuilder().serializeNulls().create()
+                        )
+                    )
                     .build()
             }
 
