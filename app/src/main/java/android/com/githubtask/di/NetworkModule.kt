@@ -18,7 +18,7 @@ class NetworkModule {
 
         private const val BASE_URL = "https://api.github.com/"
         private const val TOKEN = "token"
-        private const val AUTH_TOKEN = "1c5b1ab9a6aff0ccd1ecd50a19ac83cd600a0ddf"
+        private const val AUTH_TOKEN = "8fe65394ecda479b19d0c5f0872620b554971663"
 
         private const val READ_TIMEOUT = 100L
         private const val CONNECT_TIMEOUT = 120L
